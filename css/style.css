@@ -1,0 +1,119 @@
+
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  font: 13.34px helvetica, arial, clean, sans-serif;
+  *font-size: small;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: #00a;
+}
+
+a:hover {
+  color: black;
+}
+
+a:visited {
+  color: #a0a;
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+/* HOME */
+
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+  ul.posts li {
+    line-height: 1.75em;
+  }
+
+  ul.posts span {
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+  }
+
+/* SITE */
+
+
+.site {
+  font-size: 110%;
+  text-align: justify;
+  width: 40em;
+  margin: 1em auto;
+  line-height: 1.5em;
+}
+
+/* title */
+
+.title {
+    border-bottom: 2px solid #dddddd;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    text-align: right;
+}
+
+.title a {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    color: #00a;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    font-size: 0.8em;
+    border-top: 2px solid #dddddd; 
+    padding: 5px;
+}
+
+p.meta {
+    margin-top: 0px;
+    font-size: 0.9em;
+    color: #aaa;    
+}
+
+#post h1 {
+    margin-bottom: 0px;
+    font-size: 1.2em;
+}
+
+pre {
+    padding: 1em;
+    font-size: 0.9em;
+    background: #eee;
+    border: 1px solid #ddd;
+}
