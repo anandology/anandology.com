@@ -19,7 +19,7 @@ I added a new construct `jsdef` to Templetor. It defines a template function and
 For example:
 
 {% highlight html %}
-$jsdef hello(name)
+$jsdef hello(name):
     Hello, $name!
     
 $hello("world")
