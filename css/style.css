@@ -25,6 +25,10 @@ h1 {
   margin-bottom: 1em;
 }
 
+h2 {
+    margin-top: 10px;
+}
+
 p {
   margin: 1em 0;
 }
