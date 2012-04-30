@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to write a new web framework
+title: How to write a web framework in Python
 ---
 
 # {{ page.title }}
