@@ -119,9 +119,9 @@ class Counter:
 
 If we run the program now, we'll get the excpected value for c2.
 
-   $ python count.py
-   ...
-   c2 200001
+    $ python count.py
+    ...
+    c2 200001
 
 The similar approach won't work for generators as we don't have
 control over the calling of `next` method. Whatever changes we make to
