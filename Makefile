@@ -6,4 +6,4 @@ server:
 	jekyll --server 8080
 
 push:
-	rsync -avz _site/* anandology.com:/var/www/anandology.com/ 
+	rsync -avzc _site/* anandology.com:/var/www/anandology.com/ 
