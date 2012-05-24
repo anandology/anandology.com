@@ -120,4 +120,5 @@ pre {
     font-size: 0.9em;
     background: #eee;
     border: 1px solid #ddd;
+    word-wrap: break-word;
 }
