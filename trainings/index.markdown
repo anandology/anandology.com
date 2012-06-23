@@ -5,9 +5,10 @@ title: Trainings
 
 # Trainings
 
-I offer the following public training classes in Bangalore in semi-regular basis.
+I offer the following public training classes in Bangalore in semi-regular basis. Please look at the [home page](/) for upcoming trainings.
 
-Please look at the [home page](/) for upcoming trainings.
+I also offer on-site tranings for corporate companies. Please <a class="contact"
+href="#contact/anandology">write to me</a> if you have a requirement.
 
 <a class="anchor" name="python">&nbsp;</a>
 ## Python Programming
