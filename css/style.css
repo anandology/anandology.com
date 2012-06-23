@@ -73,7 +73,7 @@ ul.posts {
 .site {
   font-size: 110%;
   text-align: justify;
-  width: 40em;
+  width: 60em;
   margin: 1em auto;
   line-height: 1.5em;
 }
@@ -82,18 +82,42 @@ ul.posts {
 
 .title {
     border-bottom: 2px solid #dddddd;
-    padding: 10px 0px;
-    margin: 10px 0px;
-    text-align: right;
+    padding: 10px 0px 0px 0px;
+    margin: 10px 0px 20px 0px;
+    text-align: left;
+}
+
+.title h1 {
+    font-family: helvetica, arial, clean, sans-serif;
+    font-size: 2.0em;
+    margin: 0px 0px 10px 0px;
 }
 
 .title a {
+    /*
     font-size: 1.1em;
     font-weight: bold;
+    */
     text-decoration: none;
     padding: 10px;
     color: #00a;
 }
+
+.title .nav a {
+    padding: 0px 10px -10px 10px;
+}
+
+
+  .site .title a.extra {
+    color: #aaa;
+    text-decoration: none;
+    margin-left: 1em;
+  }
+
+  .site .title a.extra:hover {
+    color: black;
+  }
+
 
 /* Footer */
 
@@ -121,4 +145,43 @@ pre {
     background: #eee;
     border: 1px solid #ddd;
     word-wrap: break-word;
+}
+
+.y {
+    display: none;
+}
+
+.x {
+    font-weight: bold;
+}
+
+.promo {
+    float: right; 
+    width: 300px;
+    background: #eee;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.promo-item {
+    padding: 10px 0px;
+}
+
+a.anchor {
+   max-height: 1px;
+   margin: -10px;
+}
+
+#page h1 {
+    font-size: 1.5em;
+}
+
+#page h2 {
+    font-size: 1.2em;
+}
+
+#page h3 {
+    font-size: 1.1em;
 }

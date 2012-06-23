@@ -27,20 +27,37 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
 
+
+      function setup_contact() {
+          console.log("setup_contact");
+          var elems = document.getElementsByClassName("contact");
+          for (var i=0; i< elems.length; i++) {
+              var href = elems[i].getAttribute("href").split("/");
+              console.log([i, href, elems[i]]);
+              elems[i].setAttribute("href", "mailto:" + href[href.length-1] + "@gmail.com");
+          }
+      }
+
+      window.onload = setup_contact;
     </script>
 
 </head>
 <body>
 
 <div class="site">
+
     <div class="title">
-        <a href="/">Anand Chitipothu</a>
-        <!--
-            <a class="extra" href="/">home</a>
-        -->
+        <h1><a href="/">Anand Chitipothu</a></h1>
+        <div class="nav">
+            <a class="" href="/">home</a>
+            <a class="" href="/about/">about</a>
+            <a class="" href="/trainings/">trainings</a>
+        </div>
     </div>
- 
-    {{ content }}
+
+    <div class="content">
+      {{ content }}
+    </div>
   
     <div class="footer">
         Powered by <a href="">Jekyll</a>
