@@ -50,15 +50,28 @@ Introduction to automated testing using unitest and doctest modules.
 
 ## About the Instructor
 
-Anand Chitipothu, has more than 10 years of programming experience
-including 6+ years in Python.
 
-He offered Python training to varous corporates, conducted Python
-workshops at various colleges, spoke at PyCon India conferences.
+Anand Chitipothu is an experienced programmer, well known in the [geek
+community][hg] in Bangalore. He has vast programming experience
+ranging from building [desktop applications][avadis] to scaling
+[high-traffic websites][ol], writing high-performance scientific tools
+to modern [proxy servers][liveweb].
 
-He is the co-author of web.py, a web framework in Python.
+Anand has offered Python training to various corporates, conducted
+Python workshops at various colleges, spoke at various tech conferences.
 
-He is currently employed by [Internet Archive](http://archive.org).
+Anand conducts public traning classes in Bangalore on a semi-regular basis.
+
+Anand is co-author and current maintainer of [web.py][], a web framework in Python. 
+
+He is currently employed by [Internet Archive][ia].
+
+[hg]: http://hasgeek.com/
+[avadis]: http://strandls.com/Avadis
+[ol]: http://openlibrary.org/
+[ia]: http://archive.org/
+[liveweb]: http://liveweb.readthedocs.org/
+[web.py]: http://webpy.org/
 
 ## Registration
 
