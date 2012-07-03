@@ -1,0 +1,55 @@
+---
+layout: post
+title: Python 101 - One-day Python Training Course
+tags: [python,training]
+---
+
+# {{ page.title }}
+<p class="meta">05 May 2012 &#8211; Bangalore</p>
+
+I'm offering a [one-day training course][doattend] on Python
+programming on Sunday, June 03, 2012.
+
+This will cover the basics of Python programming language, enough to
+get started on small projects.
+
+No prior Python experience is expected. Experience with programming in
+some language will be helpful.
+
+This will be a hands on session. The participants will solve lot of
+exercises during the course. The participant should bring their own laptops.
+
+This is targeted at students of various engineering colleges. Others
+are welcome too.
+
+**Venue**: 
+
+[The Center for Internet and Society][cis]    
+No. 194, Second 'C' Cross,     
+Domlur 2nd Stage,     
+Bangalore - 560071    
+[map][]
+
+**Date**: Sunday, June 03, 2012
+
+**Time**: 9:00 AM - 6:00 PM (includes one hour lunch break)
+
+**Logistics:**
+
+Lunch is **not** included in the fee. The participants have to make
+their own arrangements for lunch. There are good restaurants around
+the venue, so it shouldn't be a big issue.
+
+A nominal fee is charged to cover the logistics costs. 
+
+The seats are limited.
+
+<a href='http://python101.doattend.com'><img src='http://doattend.com/assets/btnw-reg-now.png'/></a>
+
+Please spread the word.
+
+Thanks to [The Center for Internet and Society][cis] for providing the venue.
+
+[cis]: http://cis-india.org/
+[map]: http://maps.google.com/maps?q=CIS+Domlur+Bangalore
+[doattend]: http://python101.doattend.com/
