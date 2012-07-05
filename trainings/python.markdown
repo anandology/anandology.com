@@ -48,8 +48,13 @@ virtualenv.
 
 Introduction to automated testing using unitest and doctest modules.
 
-## About the Instructor
+## Prerequisites
 
+All participants must come with a laptop to the course. The participants are expected to try examples and solve exercises in the class.
+
+The laptop should have Python 2.7 installed in it.
+
+## About the Instructor
 
 Anand Chitipothu is an experienced programmer, well known in the [geek
 community][hg] in Bangalore. He has vast programming experience
