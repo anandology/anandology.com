@@ -1,0 +1,39 @@
+
+python:
+    key: python
+    name: Python Programming
+    dates: Sometime in december?
+    doattend: 
+    description:
+        Hands-on course on introduction to Python programming language.
+    long-description:
+        Two day hands-on course on Python programming language. This course
+        covers basics of Python programming language with an emphasis on practical 
+        applications.
+    
+        This course assumes that the participants are already familiar with some 
+        programming language. Prior exposure to Python is not required.
+
+advanced-python:
+    key: advanced_python
+    name: Advanced Python Programming
+    dates: October 6-7, 2012
+    doattend: advancedpython
+    description:
+        Hands-on course on advanced features of Python programming language.
+    long-description:
+        
+
+httpbottomup:
+    key: httpbottomup
+    name: HTTP Bottom Up
+    dates: November 3-4, 2012
+    doattend: httpbottomup
+    description:
+        Hands-on course to understand the fundamentals of World Wide Web 
+        and building web applications in a bottom-up approach.
+
+upcoming:
+    - advanced-python
+    #- httpbottomup
+

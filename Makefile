@@ -1,8 +1,11 @@
 
-build:
+build: includes
 	jekyll
 
-server:
+includes:
+	cd _includes && make
+
+server: includes
 	jekyll --server 8080
 
 push:
