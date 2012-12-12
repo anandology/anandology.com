@@ -12,7 +12,7 @@ TEMPLATE_ROOT = "src/templates"
 
 def parse_upcoming():
     d = yaml.load(open(SOURCE).read())
-    upcoming = d.pop('upcoming')
+    upcoming = d.pop('upcoming') or {}
 
     for key in d:
         course = d[key]
