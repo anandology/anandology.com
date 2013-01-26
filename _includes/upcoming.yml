@@ -2,8 +2,8 @@
 python:
     key: python
     name: Python Programming
-    dates: November 17-18, 2012
-    doattend: pythontraining-nov2012
+    dates: February 16-17, 2013
+    doattend: pythontraining-feb2013
     description:
         Hands-on course on introduction to Python programming language.
     long-description:
@@ -17,8 +17,8 @@ python:
 advanced-python:
     key: advanced_python
     name: Advanced Python Programming
-    dates: October 6-7, 2012
-    doattend: advancedpython
+    dates: January 26-27, 2013
+    doattend: advancedpython-jan2013
     description:
         Hands-on course on advanced features of Python programming language.
     long-description:
@@ -34,7 +34,7 @@ httpbottomup:
         and building web applications in a bottom-up approach.
 
 upcoming:
-    #- advanced-python
-    #- python
+    - advanced-python
+    - python
     #- httpbottomup
 
