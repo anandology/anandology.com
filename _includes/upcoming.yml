@@ -2,12 +2,12 @@
 python:
     key: python
     name: Python Programming
-    dates: February 16-17, 2013
-    doattend: pythontraining-feb2013
+    dates: April 5-7, 2013
+    doattend: pythontraining-april2013
     description:
-        Hands-on course on introduction to Python programming language.
+        Three-day hands-on course on introduction to Python programming language.
     long-description:
-        Two day hands-on course on Python programming language. This course
+        Theee day hands-on course on Python programming language. This course
         covers basics of Python programming language with an emphasis on practical 
         applications.
     
@@ -34,7 +34,7 @@ httpbottomup:
         and building web applications in a bottom-up approach.
 
 upcoming:
-    - advanced-python
-    - python
+    #- advanced-python
+    #- python
     #- httpbottomup
 
