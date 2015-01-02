@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Goodbye Internet Archive
+title: Good Bye Internet Archive
 ---
 
 # {{ page.title }}
@@ -12,7 +12,7 @@ Its been close to 8 years since I joined the Archive. I've enjoyed and learnt
 great deal while working there.
 
 Its been quite time some since I've taken off from work for a long stretch and
-had time for my self. I've been longing for such a break and I'm very happy
+had time for myself. I've been longing for such a break and I'm very happy
 that day has come.
 
 Even though I'm moving away from the archive, its vision of universal access
