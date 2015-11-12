@@ -22,7 +22,7 @@ advanced-python:
 
     event_site: ayojak
     event_name: advancedpython201311
-
+    
     description:
         Hands-on course on advanced features of Python programming language.
     long-description:
@@ -40,7 +40,7 @@ httpbottomup:
         and building web applications in a bottom-up approach.
 
 upcoming:
-    - python
+    #- python
     #- advanced-python
     #- httpbottomup
 
