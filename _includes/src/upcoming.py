@@ -13,14 +13,20 @@ TEMPLATE_ROOT = "src/templates"
 def parse_upcoming():
     d = yaml.load(open(SOURCE).read())
     upcoming = d.pop('upcoming') or {}
+    sites = d.pop('event-sites')
 
     for key in d:
         course = d[key]
+        print key
         course['key'] = key
         course['upcoming'] = key in upcoming
 
-        course['url'] = "/trainings/%s.html" % key
-        course['doattend_url'] = "http://%s.doattend.com/" % course['doattend']
+        event_name = course['event_name']
+        event_site = course['event_site']
+
+        course['url'] = sites[event_site]['url'] % {'name': event_name}
+        course['button'] = sites[event_site]['button'] % {'name': event_name, 'url': course['url']}
+        print course
 
     courses = d
     upcoming_courses = [courses[key] for key in upcoming]

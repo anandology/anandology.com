@@ -9,7 +9,7 @@
         <div>
           {{ course['description'] }} [<a href="{{ course['url'] }}">read more ...</a>]
           <div style="text-align: center; padding: 10px;">
-            <a href="http://{{ course['doattend'] }}.doattend.com/"><img src='http://doattend.com/assets/btnw-reg-now.png'/></a>
+            {{ course['button'] }}
           </div>
         </div>
       </div>

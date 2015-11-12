@@ -6,7 +6,7 @@ title: About
 # About Me
 
 
-Hi, I'm Anand Chitipothu. I live in Bangalore, India.
+Hi, I'm Anand Chitipothu. I live in <strike>Bangalore</strike> Visakhapatnam, India.
 
 I work for [Internet Archive][ia], a non-profit digital library offering access to [millions of free books][ol], movies, and audio files, plus an [archive of 170+ billion web pages][wb].
 

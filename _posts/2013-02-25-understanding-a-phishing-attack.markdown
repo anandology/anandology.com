@@ -62,37 +62,13 @@ Still another redirect. followed it too.
 Another redirect, this time using a `meta` tag. Followed that too.
 
     $ curl -i 'http://trvitter.com/g/verify/?&account_secure_login'
-    HTTP/1.1 200 OK
-    Date: Sun, 24 Feb 2013 20:27:22 GMT
-    Server: Apache/2.2.15 (CentOS)
-    Last-Modified: Sun, 24 Feb 2013 19:16:25 GMT
-    ETag: "ffc88-b0c-4d67d42b11440"
-    Accept-Ranges: bytes
-    Content-Length: 2828
-    Connection: close
-    Content-Type: text/html; charset=UTF-8
-
+    ...
     <!DOCTYPE html>
-
-
     <html>
       <head>
-    <meta http-equiv="refresh" content="400; URL=/r3/index.html">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
-        <meta content="en-us" http-equiv="Content-Language"/>
-        <meta content="Twitter is without a doubt the best way to share and discover what is happening right now." name="description"/>
-
-        <link href="https://si0.twimg.com/a/1349296073/stylesheets/help_center.css?1348784027" media="screen" rel="stylesheet" type="text/css" />
-
+        ...
         <title>Sign in to Twitter</title>
-
-    <link href="https://twitter.com/phoenix/favicon.ico" rel="shortcut icon" type="image/x-icon">
-
-    <!--[if IE 9]>
-      <link href="/iefavicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <![endif]-->
-    </head>
-    ....
+        ...
 
 Got it! This is a fake twitter login. Looks like the following when opened in a browser.
 
@@ -112,9 +88,13 @@ Use the [advice of xkcd][1] to pick a strong password.
 
 This'll prevent people from compromising their accounts by clicking the phishing link.
 
-The twitter website doesn't allow a way to delete multiple DMs at once. I found that [wwww.dmcleaner.com](http://www.dmcleaner.com/) is very useful for this task. You'll have authorize it via Twitter to use it.
+The twitter website doesn't allow a way to delete multiple DMs at once. I found that
+[www.dmcleaner.com](http://www.dmcleaner.com/) is very useful for this task. You'll have authorize
+it via Twitter to use it.
 
-**Step 3: Revoke access to all unwanted apps that are authorized by you. You can find them on `Apps` tab on Twitter settings page.
+**Step 3: Revoke access to all unwanted apps that are authorized by you.**
+
+You can find them on `Apps` tab on Twitter settings page.
 
 See the Twitter Help Center article ["My Account Has Been Compromised"][2] for more tips about securing Twitter account.
 

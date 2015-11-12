@@ -2,8 +2,9 @@
 python:
     key: python
     name: Python Programming
-    dates: April 5-7, 2013
-    doattend: pythontraining-april2013
+    dates: April 3 - April 5, 2015
+    event_site: doattend
+    event_name: pythonworkshop-april2015
     description:
         Three-day hands-on course on introduction to Python programming language.
     long-description:
@@ -17,8 +18,11 @@ python:
 advanced-python:
     key: advanced_python
     name: Advanced Python Programming
-    dates: January 26-27, 2013
-    doattend: advancedpython-jan2013
+    dates: November 14-16, 2013
+
+    event_site: ayojak
+    event_name: advancedpython201311
+
     description:
         Hands-on course on advanced features of Python programming language.
     long-description:
@@ -28,13 +32,23 @@ httpbottomup:
     key: httpbottomup
     name: HTTP Bottom Up
     dates: November 3-4, 2012
-    doattend: httpbottomup
+
+    event_site: doattend
+    event_name: httpbottomup
     description:
         Hands-on course to understand the fundamentals of World Wide Web 
         and building web applications in a bottom-up approach.
 
 upcoming:
+    - python
     #- advanced-python
-    #- python
     #- httpbottomup
 
+event-sites:
+    doattend:
+        url: 'http://%(name)s.doattend.com/'
+        button: '<a href="%(url)s"><img src="http://doattend.com/assets/btnw-reg-now.png"/></a>'
+
+    ayojak:
+        url: 'http://advancedpython.hasgeek.com/'
+        button: '<a href="%(url)s"><img src="http://doattend.com/assets/btnw-reg-now.png"/></a>'

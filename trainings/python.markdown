@@ -5,7 +5,7 @@ title: Trainings
 
 # Python Programming
 
-Two day hands-on course on Python programming language. This course
+Three day hands-on course on Python programming language. This course
 covers basics of Python programming language with an emphasis on
 practical applications.
 

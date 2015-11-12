@@ -1,6 +1,6 @@
 
 build: includes
-	jekyll
+	jekyll build
 
 includes:
 	cd _includes && make
