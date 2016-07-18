@@ -39,10 +39,34 @@ httpbottomup:
         Hands-on course to understand the fundamentals of World Wide Web 
         and building web applications in a bottom-up approach.
 
+unixcmdline:
+    key: mastering-unix-command-line
+    name: Mastering UNIX Command-line
+    dates: July 23, 2016
+    city: Hyderabad
+
+    event_site: pairup
+    event_name: mastering-unix-command-line
+    description:
+        One-day, hands-on workshop to take the participants a deep dive into the world of unix and command-line.
+
+docker:
+    key: docker
+    name: Getting Started with Docker
+    dates: July 30, 2016
+    city: Hyderabad
+
+    event_site: pairup
+    event_name: getting-started-with-docker
+    description:
+        One-day, hands-on workshop to get you started with Docker.
+
 upcoming:
     #- python
     #- advanced-python
     #- httpbottomup
+    - unixcmdline
+    - docker
 
 event-sites:
     doattend:
@@ -52,3 +76,7 @@ event-sites:
     ayojak:
         url: 'http://advancedpython.hasgeek.com/'
         button: '<a href="%(url)s"><img src="http://doattend.com/assets/btnw-reg-now.png"/></a>'
+
+    pairup:
+        url: 'http://pair-up.org/workshops/%(name)s'
+        button: '<a href="%(url)s" style="padding: 10px 45px; border-radius: 4px; color: white; background-color: #0288d1; border: 1px solid #0288d1;">Register Now</a>'

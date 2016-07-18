@@ -4,11 +4,11 @@
     {% for course in courses %}
       <div class="promo-item">
         <a href="{{ course['url'] }}">{{ course['name'] }}</a>
-        <p class="meta" style="color: #555;">{{ course['dates'] }} &#8211; Bangalore</p>
+        <p class="meta" style="color: #555;">{{ course['dates'] }} &#8211; {{course['city']}}</p>
       
         <div>
           {{ course['description'] }} [<a href="{{ course['url'] }}">read more ...</a>]
-          <div style="text-align: center; padding: 10px;">
+          <div style="text-align: center; padding: 10px; margin: 10px;">
             {{ course['button'] }}
           </div>
         </div>
