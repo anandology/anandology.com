@@ -6,7 +6,7 @@ includes:
 	cd _includes && make
 
 server: includes
-	jekyll --server 8080
+	jekyll serve
 
 push:
 	rsync -avzc _site/* anandology.com:/var/www/anandology.com/ 

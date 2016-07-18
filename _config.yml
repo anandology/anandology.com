@@ -1,5 +1,4 @@
 
-permalink: /blog/:title
-pygments: true
-plugins: ./_plugins
-
+permalink: /blog/:title/
+highlighter: pigments
+plugins_dir: ./_plugins
