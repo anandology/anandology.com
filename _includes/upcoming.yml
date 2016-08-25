@@ -31,13 +31,24 @@ advanced-python:
 httpbottomup:
     key: httpbottomup
     name: HTTP Bottom Up
-    dates: November 3-4, 2012
+    dates: September 16-17, 2016
+    city: Bangalore
 
-    event_site: doattend
-    event_name: httpbottomup
+    event_site: pipal
+    event_name: http-bottom-up
     description:
         Hands-on course to understand the fundamentals of World Wide Web 
         and building web applications in a bottom-up approach.
+
+generators:
+    key: generators
+    name: Generators Inside Out
+    dates: September 18, 2016
+    city: Bangalore
+
+    event_site: pipal
+    event_name: generators-inside-out
+    description: Generators inside out is an one-day hands-on workshop that provides in-depth introduction to generators in Python.
 
 unixcmdline:
     key: mastering-unix-command-line
@@ -64,9 +75,10 @@ docker:
 upcoming:
     #- python
     #- advanced-python
-    #- httpbottomup
-    - unixcmdline
-    - docker
+    - httpbottomup
+    - generators
+    #- unixcmdline
+    #- docker
 
 event-sites:
     doattend:
@@ -79,4 +91,8 @@ event-sites:
 
     pairup:
         url: 'http://pair-up.org/workshops/%(name)s'
+        button: '<a href="%(url)s" style="padding: 10px 45px; border-radius: 4px; color: white; background-color: #0288d1; border: 1px solid #0288d1;">Register Now</a>'
+
+    pipal:
+        url: 'http://pipal.in/workshops/2016/%(name)s'
         button: '<a href="%(url)s" style="padding: 10px 45px; border-radius: 4px; color: white; background-color: #0288d1; border: 1px solid #0288d1;">Register Now</a>'
