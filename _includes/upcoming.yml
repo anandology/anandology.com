@@ -75,8 +75,8 @@ docker:
 upcoming:
     #- python
     #- advanced-python
-    - httpbottomup
-    - generators
+    # - httpbottomup
+    # - generators
     #- unixcmdline
     #- docker
 
