@@ -50,6 +50,16 @@ generators:
     event_name: generators-inside-out
     description: Generators inside out is an one-day hands-on workshop that provides in-depth introduction to generators in Python.
 
+decorators:
+    key: decorators
+    name: Python Decorators Demystified
+    dates: October 22-23, 2016
+    city: Online
+
+    event_site: pipal
+    event_name: decorators-demystified
+    description: Learn functional programming concepts to build libraries and frameworks with beautiful APIs.
+
 unixcmdline:
     key: mastering-unix-command-line
     name: Mastering UNIX Command-line
@@ -79,6 +89,7 @@ upcoming:
     # - generators
     #- unixcmdline
     #- docker
+    - decorators
 
 event-sites:
     doattend:
