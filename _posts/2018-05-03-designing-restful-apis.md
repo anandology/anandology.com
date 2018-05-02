@@ -3,6 +3,8 @@ layout: post
 title: Designing RESTful APIs
 ---
 
+<img src="/files/2018/horn-200ok-please.png">
+
 # {{ page.title }}
 <p class="meta">03 May 2018 &#8211; Visakhapatnam</p>
 
@@ -95,8 +97,6 @@ What to support both JSON and XML data types. HTTP is there to help you again. R
 
 In short, "RESTful" just means using HTTP effectively!
 
----
-
-If you like this post, you may want to checkout my upcoming workshop on [Designing RESTful APIs][1].
-
-[1]: https://rootconf.in/2018-designing-restful-apis/
+<div style="margin: 50px 0px; padding: 20px; border: 1px solid #ddd; background: #ffd;">
+If you like this post, you may want to checkout my upcoming workshop on <a href="https://rootconf.in/2018-designing-restful-apis/">Designing RESTful APIs</a>.
+</div>
