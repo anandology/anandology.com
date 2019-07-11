@@ -125,5 +125,8 @@ STRONG  WEEK
 
 Liked it? Here is the [full program][gist]!
 
+*Interested to work with me? [We are hiring][hiring]!*
+
 [1]: http://blogs.perl.org/users/damian_conway/2019/07/infinite-work-is-less-work.html
 [gist]: https://gist.github.com/anandology/90c4a7dadbb650cd7d5c4645b94e5b30
+[hiring]: https://angel.co/company/rorodata
