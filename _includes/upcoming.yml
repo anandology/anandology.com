@@ -9,10 +9,10 @@ python:
         Three-day hands-on course on introduction to Python programming language.
     long-description:
         Theee day hands-on course on Python programming language. This course
-        covers basics of Python programming language with an emphasis on practical 
+        covers basics of Python programming language with an emphasis on practical
         applications.
-    
-        This course assumes that the participants are already familiar with some 
+
+        This course assumes that the participants are already familiar with some
         programming language. Prior exposure to Python is not required.
 
 advanced-python:
@@ -22,11 +22,11 @@ advanced-python:
 
     event_site: ayojak
     event_name: advancedpython201311
-    
+
     description:
         Hands-on course on advanced features of Python programming language.
     long-description:
-        
+
 
 httpbottomup:
     key: httpbottomup
@@ -37,7 +37,7 @@ httpbottomup:
     event_site: pipal
     event_name: http-bottom-up
     description:
-        Hands-on course to understand the fundamentals of World Wide Web 
+        Hands-on course to understand the fundamentals of World Wide Web
         and building web applications in a bottom-up approach.
 
 generators:
@@ -53,7 +53,7 @@ generators:
 decorators:
     key: decorators
     name: Python Decorators Demystified
-    dates: October 22-23, 2016
+    dates: November 21-22, 2020
     city: Online
 
     event_site: pipal
@@ -89,7 +89,7 @@ upcoming:
     # - generators
     #- unixcmdline
     #- docker
-    # - decorators
+    - decorators
 
 event-sites:
     doattend:
