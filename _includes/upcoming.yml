@@ -105,5 +105,5 @@ event-sites:
         button: '<a href="%(url)s" style="padding: 10px 45px; border-radius: 4px; color: white; background-color: #0288d1; border: 1px solid #0288d1;">Register Now</a>'
 
     pipal:
-        url: 'http://pipal.in/workshops/2016/%(name)s'
+        url: 'http://pipal.in/workshops/2020/%(name)s'
         button: '<a href="%(url)s" style="padding: 10px 45px; border-radius: 4px; color: white; background-color: #0288d1; border: 1px solid #0288d1;">Register Now</a>'

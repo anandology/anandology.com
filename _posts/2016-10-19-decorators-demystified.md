@@ -251,6 +251,6 @@ Hope this article made you understand how Python decorators work.
 
 ---
 
-*If you are excited about decorators and curious to learn more about them, check out my upcoming [Python Decorators Demystified online workshop][1] being held on Oct 22–23. It is going to be a hands-on workshop with lot of examples and practice problems covering some advanced use cases of decorators.*
+*If you are excited about decorators and curious to learn more about them, check out my upcoming [Python Decorators Demystified online workshop][1] being held on Nov 21-22, 2020. It is going to be a hands-on workshop with lot of examples and practice problems covering some advanced use cases of decorators.*
 
-[1]: https://pipal.in/events/2016/decorators-demystified/
+[1]: https://pipal.in/events/2020/decorators-demystified/
