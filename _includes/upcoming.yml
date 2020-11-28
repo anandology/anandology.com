@@ -89,7 +89,7 @@ upcoming:
     # - generators
     #- unixcmdline
     #- docker
-    - decorators
+    #- decorators
 
 event-sites:
     doattend:
