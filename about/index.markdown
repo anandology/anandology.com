@@ -8,11 +8,10 @@ title: About
 
 Hi, I'm Anand Chitipothu. I live in Bangalore, India.
 
-I'm very passionate about computer programming. I've programmed in about  dozon programming languages. Python is my preferred language of choice, but Go lang seems to be taking some of my attention these days.
+I'm very passionate about prorgamming and building stuff.
 
-I've authored [web.py][] and [Infogami][] with [Aaron Swartz][sw], built [Open Library][ol] at the [Internet Archive][ia] and currently building [rorodata][], a startup a recently co-founded.
+I've authored [web.py][] and [Infogami][] with [Aaron Swartz][sw], built [Open Library][ol] at the [Internet Archive][ia], created a machine learning platform at Rorodata, trained hundreds of engineers through his deep-dive courses at [Pipal Academy][pipal].
 
-I conduct advanced programming courses through [Pipal Academy][pipal].
 
 You can contact me at 
 <a href="#contact/anandology" class="contact"><span class="x">anand</span><span class="y">foo</span><span class="x">ology@gm</span><span class="y">bar</span><span class="x">ail.com</span></a>.
